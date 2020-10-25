@@ -81,7 +81,7 @@ public class Blocks
 			() -> new SlabBlock(Block.Properties.from(SMOOTH_VITRIC_SOULSANDSTONE.get())));
 	public static final RegistryObject<Block> SMOOTH_VITRIC_SOULSANDSTONE_STAIRS = BLOCKS.register("smooth_vitric_soulsandstone_stairs", 
 			() -> new StairsBlock(() -> SMOOTH_VITRIC_SOULSANDSTONE.get().getDefaultState(), Block.Properties.from(SMOOTH_VITRIC_SOULSANDSTONE.get())));
-	//Soulsand Pillar Quartz
+	//Soulsand Quartz Pillar
 	public static final RegistryObject<Block> VITRIC_SOULSANDSTONE_PILLAR = BLOCKS.register("vitric_soulsandstone_pillar",
 			() -> new RotatedPillarBlock(Block.Properties.create(Material.ROCK, MaterialColor.BROWN).hardnessAndResistance(0.8F)));
 	//Soulsand Chiseled Quartz
