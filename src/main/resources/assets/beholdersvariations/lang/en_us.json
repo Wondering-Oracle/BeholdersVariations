@@ -9,6 +9,22 @@
 	"block.beholdersvariations.smooth_silicastone_stairs": "Smooth Silicastone Stairs",
 	"block.beholdersvariations.cut_silicastone": "Cut Silicastone",
 	"block.beholdersvariations.cut_silicastone_slab": "Cut Silicastone Slab",
-	"block.beholdersvariations.chiseled_silicastone": "Chiseled Silicastone"
-	
+	"block.beholdersvariations.chiseled_silicastone": "Chiseled Silicastone",
+	"block.beholdersvariations.soulsandstone": "Soulsandstone",
+	"block.beholdersvariations.soulsandstone_slab": "Soulsandstone Slab",
+	"block.beholdersvariations.soulsandstone_stairs": "Soulsandstone Stairs",
+	"block.beholdersvariations.smooth_soulsandstone": "Smooth Soulsandstone",
+	"block.beholdersvariations.smooth_soulsandstone_slab": "Smooth Soulsandstone Slab",
+	"block.beholdersvariations.smooth_soulsandstone_stairs": "Smooth Soulsandstone Stairs",
+	"block.beholdersvariations.cut_soulsandstone": "Cut Soulsandstone",
+	"block.beholdersvariations.cut_soulsandstone_slab": "Cut Soulsandstone Slab",
+	"block.beholdersvariations.chiseled_soulsandstone": "Chiseled Soulsandstone",
+	"block.beholdersvariations.vitric_soulsandstone": "Vitric Soulsandstone",
+	"block.beholdersvariations.vitric_soulsandstone_slab": "Vitric Soulsandstone Slab",
+	"block.beholdersvariations.vitric_soulsandstone_stairs": "Vitric Soulsandstone Stairs",
+	"block.beholdersvariations.smooth_vitric_soulsandstone": "Smooth Vitric Soulsandstone",
+	"block.beholdersvariations.smooth_vitric_soulsandstone_slab": "Smooth Vitric Soulsandstone Slab",
+	"block.beholdersvariations.smooth_vitric_soulsandstone_stairs": "Smooth Vitric Soulsandstone Stairs",
+	"block.beholdersvariations.vitric_soulsandstone_pillar": "Vitric Soulsandstone Pillar",
+	"block.beholdersvariations.chiseled_vitric_soulsandstone": "Chiseled Vitric Soulsandstone"
 }
