@@ -71,9 +71,9 @@ public class Blocks
 	public static final RegistryObject<Block> VITRIC_SOULSANDSTONE = BLOCKS.register("vitric_soulsandstone", 
 			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.BROWN).hardnessAndResistance(0.8F)));
 	public static final RegistryObject<Block> VITRIC_SOULSANDSTONE_SLAB = BLOCKS.register("vitric_soulsandstone_slab", 
-			() -> new SlabBlock(Block.Properties.from(SOULSANDSTONE.get())));
+			() -> new SlabBlock(Block.Properties.from(VITRIC_SOULSANDSTONE.get())));
 	public static final RegistryObject<Block> VITRIC_SOULSANDSTONE_STAIRS = BLOCKS.register("vitric_soulsandstone_stairs", 
-			() -> new StairsBlock(() -> SOULSANDSTONE.get().getDefaultState(), Block.Properties.from(VITRIC_SOULSANDSTONE.get())));
+			() -> new StairsBlock(() -> VITRIC_SOULSANDSTONE.get().getDefaultState(), Block.Properties.from(VITRIC_SOULSANDSTONE.get())));
 	//Soulsand Smooth Quartz
 	public static final RegistryObject<Block> SMOOTH_VITRIC_SOULSANDSTONE = BLOCKS.register("smooth_vitric_soulsandstone", 
 			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.BROWN).hardnessAndResistance(2.0F, 6.0F)));
@@ -89,21 +89,44 @@ public class Blocks
 			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.BROWN).hardnessAndResistance(0.8F)));
 	
 	//Sandstone Quartz
-		//Slab
-		//Stairs
+	public static final RegistryObject<Block> VITRIC_SANDSTONE = BLOCKS.register("vitric_sandstone", 
+			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.SAND).hardnessAndResistance(0.8F)));
+	public static final RegistryObject<Block> VITRIC_SANDSTONE_SLAB = BLOCKS.register("vitric_sandstone_slab", 
+			() -> new SlabBlock(Block.Properties.from(VITRIC_SANDSTONE.get())));
+	public static final RegistryObject<Block> VITRIC_SANDSTONE_STAIRS = BLOCKS.register("vitric_sandstone_stairs", 
+			() -> new StairsBlock(() -> VITRIC_SANDSTONE.get().getDefaultState(), Block.Properties.from(VITRIC_SANDSTONE.get())));
 	//Sandstone Smooth Quartz
-		//Slab
-		//Stairs
-	//Sandstone Pillar Quartz
+	public static final RegistryObject<Block> SMOOTH_VITRIC_SANDSTONE = BLOCKS.register("smooth_vitric_sandstone", 
+			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.SAND).hardnessAndResistance(2.0F, 6.0F)));
+	public static final RegistryObject<Block> SMOOTH_VITRIC_SANDSTONE_SLAB = BLOCKS.register("smooth_vitric_sandstone_slab", 
+			() -> new SlabBlock(Block.Properties.from(SMOOTH_VITRIC_SANDSTONE.get())));
+	public static final RegistryObject<Block> SMOOTH_VITRIC_SANDSTONE_STAIRS = BLOCKS.register("smooth_vitric_sandstone_stairs", 
+			() -> new StairsBlock(() -> SMOOTH_VITRIC_SANDSTONE.get().getDefaultState(), Block.Properties.from(SMOOTH_VITRIC_SANDSTONE.get())));
+	//Sandstone Quartz Pillar
+	public static final RegistryObject<Block> VITRIC_SANDSTONE_PILLAR = BLOCKS.register("vitric_sandstone_pillar",
+			() -> new RotatedPillarBlock(Block.Properties.create(Material.ROCK, MaterialColor.SAND).hardnessAndResistance(0.8F)));
 	//Sandstone Chiseled Quartz
+	public static final RegistryObject<Block> CHISELED_VITRIC_SANDSTONE = BLOCKS.register("chiseled_vitric_sandstone", 
+			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.SAND).hardnessAndResistance(0.8F)));
 	
 	//Red Sandstone Quartz
-		//Slab
-		//Stairs
+	public static final RegistryObject<Block> VITRIC_RED_SANDSTONE = BLOCKS.register("vitric_red_sandstone", 
+			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.ADOBE).hardnessAndResistance(0.8F)));
+	public static final RegistryObject<Block> VITRIC_RED_SANDSTONE_SLAB = BLOCKS.register("vitric_red_sandstone_slab", 
+			() -> new SlabBlock(Block.Properties.from(VITRIC_RED_SANDSTONE.get())));
+	public static final RegistryObject<Block> VITRIC_RED_SANDSTONE_STAIRS = BLOCKS.register("vitric_red_sandstone_stairs", 
+			() -> new StairsBlock(() -> VITRIC_RED_SANDSTONE.get().getDefaultState(), Block.Properties.from(VITRIC_RED_SANDSTONE.get())));
 	//Red Sandstone Smooth Quartz
-		//Slab
-		//Stairs
-	//Red Sandstone Pillar Quartz
+	public static final RegistryObject<Block> SMOOTH_VITRIC_RED_SANDSTONE = BLOCKS.register("smooth_vitric_red_sandstone", 
+			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.ADOBE).hardnessAndResistance(2.0F, 6.0F)));
+	public static final RegistryObject<Block> SMOOTH_VITRIC_RED_SANDSTONE_SLAB = BLOCKS.register("smooth_vitric_red_sandstone_slab", 
+			() -> new SlabBlock(Block.Properties.from(SMOOTH_VITRIC_RED_SANDSTONE.get())));
+	public static final RegistryObject<Block> SMOOTH_VITRIC_RED_SANDSTONE_STAIRS = BLOCKS.register("smooth_vitric_red_sandstone_stairs", 
+			() -> new StairsBlock(() -> SMOOTH_VITRIC_RED_SANDSTONE.get().getDefaultState(), Block.Properties.from(SMOOTH_VITRIC_RED_SANDSTONE.get())));
+	//Red Sandstone Quartz Pillar
+	public static final RegistryObject<Block> VITRIC_RED_SANDSTONE_PILLAR = BLOCKS.register("vitric_red_sandstone_pillar",
+			() -> new RotatedPillarBlock(Block.Properties.create(Material.ROCK, MaterialColor.ADOBE).hardnessAndResistance(0.8F)));
 	//Red Sandstone Chiseled Quartz
-		
+	public static final RegistryObject<Block> CHISELED_VITRIC_RED_SANDSTONE = BLOCKS.register("chiseled_vitric_red_sandstone", 
+			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.ADOBE).hardnessAndResistance(0.8F)));
 }
