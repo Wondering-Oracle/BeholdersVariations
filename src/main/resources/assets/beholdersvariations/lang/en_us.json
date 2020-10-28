@@ -26,5 +26,21 @@
 	"block.beholdersvariations.smooth_vitric_soulsandstone_slab": "Smooth Vitric Soulsandstone Slab",
 	"block.beholdersvariations.smooth_vitric_soulsandstone_stairs": "Smooth Vitric Soulsandstone Stairs",
 	"block.beholdersvariations.vitric_soulsandstone_pillar": "Vitric Soulsandstone Pillar",
-	"block.beholdersvariations.chiseled_vitric_soulsandstone": "Chiseled Vitric Soulsandstone"
+	"block.beholdersvariations.chiseled_vitric_soulsandstone": "Chiseled Vitric Soulsandstone",
+	"block.beholdersvariations.vitric_sandstone": "Vitric Sandstone",
+	"block.beholdersvariations.vitric_sandstone_slab": "Vitric Sandstone Slab",
+	"block.beholdersvariations.vitric_sandstone_stairs": "Vitric Sandstone Stairs",
+	"block.beholdersvariations.smooth_vitric_sandstone": "Smooth Vitric Sandstone",
+	"block.beholdersvariations.smooth_vitric_sandstone_slab": "Smooth Vitric Sandstone Slab",
+	"block.beholdersvariations.smooth_vitric_sandstone_stairs": "Smooth Vitric Sandstone Stairs",
+	"block.beholdersvariations.vitric_sandstone_pillar": "Vitric Sandstone Pillar",
+	"block.beholdersvariations.chiseled_vitric_sandstone": "Chiseled Vitric Sandstone",
+	"block.beholdersvariations.vitric_red_sandstone": "Vitric Red Sandstone",
+	"block.beholdersvariations.vitric_red_sandstone_slab": "Vitric Red Sandstone Slab",
+	"block.beholdersvariations.vitric_red_sandstone_stairs": "Vitric Red Sandstone Stairs",
+	"block.beholdersvariations.smooth_vitric_red_sandstone": "Smooth Vitric Red Sandstone",
+	"block.beholdersvariations.smooth_vitric_red_sandstone_slab": "Smooth Vitric Red Sandstone Slab",
+	"block.beholdersvariations.smooth_vitric_red_sandstone_stairs": "Smooth Vitric Red Sandstone Stairs",
+	"block.beholdersvariations.vitric_red_sandstone_pillar": "Vitric Red Sandstone Pillar",
+	"block.beholdersvariations.chiseled_vitric_red_sandstone": "Chiseled Vitric Red Sandstone"
 }
