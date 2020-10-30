@@ -16,7 +16,9 @@
         "item": "minecraft:chiseled_red_sandstone"
       }
     ],
-    "*": "item": "minecraft:glass"
+    "*": {
+      "item": "minecraft:glass"
+    }
   },
   "result": {
     "item": "beholdersvariations:vitric_red_sandstone",
