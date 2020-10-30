@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "*#",
+    "#*"
+  ],
+  "key": {
+    "#": [
+      {
+        "item": "beholdersvariations:soulsandstone"
+      },
+      {
+        "item": "beholdersvariations:cut_soulsandstone"
+      },
+      {
+        "item": "beholdersvariations:chiseled_soulsandstone"
+      }
+    ],
+    "*": "item": "minecraft:glass"
+  },
+  "result": {
+    "item": "beholdersvariations:vitric_soulsandstone",
+    "count": 2
+  }
+}
