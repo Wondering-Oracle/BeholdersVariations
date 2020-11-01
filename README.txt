@@ -1,5 +1,3 @@
-
-
 Beholder's Proof-of-Concept mod, hopefully the base for something bigger.
 
 Additions as of 0.1.0:
