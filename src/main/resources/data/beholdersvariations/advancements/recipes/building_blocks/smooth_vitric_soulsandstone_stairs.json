@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "beholdersvariations:smooth_vitric_soulsandstone_stairs"
+    ]
+  },
+  "criteria": {
+    "has_smooth_vitric_soulsandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "beholdersvariations:smooth_vitric_soulsandstone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "beholdersvariations:smooth_vitric_soulsandstone_stairs"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_smooth_vitric_soulsandstone",
+      "has_the_recipe"
+    ]
+  ]
+}

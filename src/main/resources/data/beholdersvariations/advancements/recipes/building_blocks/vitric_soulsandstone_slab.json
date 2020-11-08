@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "beholdersvariations:vitric_soulsandstone_slab"
+    ]
+  },
+  "criteria": {
+    "has_chiseled_vitric_soulsandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "beholdersvariations:chiseled_vitric_soulsandstone"
+          }
+        ]
+      }
+    },
+    "has_vitric_soulsandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "beholdersvariations:vitric_soulsandstone"
+          }
+        ]
+      }
+    },
+    "has_vitric_soulsandstone_pillar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "beholdersvariations:vitric_soulsandstone_pillar"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "beholdersvariations:vitric_soulsandstone_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_chiseled_vitric_soulsandstone",
+      "has_vitric_soulsandstone",
+      "has_vitric_soulsandstone_pillar",
+      "has_the_recipe"
+    ]
+  ]
+}

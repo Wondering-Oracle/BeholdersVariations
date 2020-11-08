@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "beholdersvariations:silicastone_slab"
+    ]
+  },
+  "criteria": {
+    "has_silicastone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "beholdersvariations:silicastone"
+          }
+        ]
+      }
+    },
+    "has_chiseled_silicastone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "beholdersvariations:chiseled_silicastone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "beholdersvariations:silicastone_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_silicastone",
+      "has_chiseled_silicastone",
+      "has_the_recipe"
+    ]
+  ]
+}

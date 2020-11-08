@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "beholdersvariations:vitric_sandstone_stairs"
+    ]
+  },
+  "criteria": {
+    "has_chiseled_vitric_sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "beholdersvariations:chiseled_vitric_sandstone"
+          }
+        ]
+      }
+    },
+    "has_vitric_sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "beholdersvariations:vitric_sandstone"
+          }
+        ]
+      }
+    },
+    "has_vitric_sandstone_pillar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "beholdersvariations:vitric_sandstone_pillar"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "beholdersvariations:vitric_sandstone_stairs"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_chiseled_vitric_sandstone",
+      "has_vitric_sandstone",
+      "has_vitric_sandstone_pillar",
+      "has_the_recipe"
+    ]
+  ]
+}

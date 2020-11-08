@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "beholdersvariations:soulsandstone_slab"
+    ]
+  },
+  "criteria": {
+    "has_soulsandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "beholdersvariations:soulsandstone"
+          }
+        ]
+      }
+    },
+    "has_chiseled_soulsandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "beholdersvariations:chiseled_soulsandstone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "beholdersvariations:soulsandstone_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_soulsandstone",
+      "has_chiseled_soulsandstone",
+      "has_the_recipe"
+    ]
+  ]
+}

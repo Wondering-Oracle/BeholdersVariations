@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "beholdersvariations:silicastone"
+    ]
+  },
+  "criteria": {
+    "has_silica_sand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "beholdersvariations:silica_sand"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "beholdersvariations:silicastone"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_silica_sand",
+      "has_the_recipe"
+    ]
+  ]
+}
