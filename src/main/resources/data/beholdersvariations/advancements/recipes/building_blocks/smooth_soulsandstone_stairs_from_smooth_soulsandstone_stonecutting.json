@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "beholdersvariations:smooth_soulsandstone_stairs_from_smooth_soulsandstone_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_smooth_soulsandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "beholdersvariations:smooth_soulsandstone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "beholdersvariations:smooth_soulsandstone_stairs_from_smooth_soulsandstone_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_smooth_soulsandstone",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "beholdersvariations:smooth_silicastone_slab_from_smooth_silicastone_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_smooth_silicastone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "beholdersvariations:smooth_silicastone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "beholdersvariations:smooth_silicastone_slab_from_smooth_silicastone_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_smooth_silicastone",
+      "has_the_recipe"
+    ]
+  ]
+}

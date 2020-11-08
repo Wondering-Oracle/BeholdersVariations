@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "beholdersvariations:cut_soulsandstone"
+    ]
+  },
+  "criteria": {
+    "has_soulsandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "beholdersvariations:soulsandstone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "beholdersvariations:cut_soulsandstone"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_soulsandstone",
+      "has_the_recipe"
+    ]
+  ]
+}

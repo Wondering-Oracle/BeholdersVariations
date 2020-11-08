@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "beholdersvariations:chiseled_silicasandstone"
+    ]
+  },
+  "criteria": {
+    "has_silicasandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "beholdersvariations:silicasandstone"
+          }
+        ]
+      }
+    },
+    "has_chiseled_silicasandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "beholdersvariations:chiseled_silicasandstone"
+          }
+        ]
+      }
+    },
+    "has_cut_silicasandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "beholdersvariations:cut_silicasandstone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "beholdersvariations:chiseled_silicasandstone"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_silicasandstone",
+      "has_chiseled_silicasandstone",
+      "has_cut_silicasandstone",
+      "has_the_recipe"
+    ]
+  ]
+}

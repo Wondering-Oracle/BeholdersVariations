@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "beholdersvariations:chiseled_vitric_red_sandstone_from_vitric_red_sandstone_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_vitric_red_sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "beholdersvariations:vitric_red_sandstone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "beholdersvariations:chiseled_vitric_red_sandstone_from_vitric_red_sandstone_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_vitric_red_sandstone",
+      "has_the_recipe"
+    ]
+  ]
+}

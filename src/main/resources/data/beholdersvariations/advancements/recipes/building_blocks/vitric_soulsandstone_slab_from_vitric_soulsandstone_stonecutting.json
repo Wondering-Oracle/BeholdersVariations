@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "beholdersvariations:vitric_soulsandstone_slab_from_vitric_soulsandstone_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_vitric_soulsandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "beholdersvariations:vitric_soulsandstone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "beholdersvariations:vitric_soulsandstone_slab_from_vitric_soulsandstone_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_vitric_soulsandstone",
+      "has_the_recipe"
+    ]
+  ]
+}
