@@ -9,7 +9,7 @@
       "item": "minecraft:iron_nugget"
     },
     "#": {
-      "tag": "beholdersvariations:sand"
+      "tag": "minecraft:sand"
     }
   },
   "result": {
