@@ -264,8 +264,8 @@ public class Blocks
 	public static final RegistryObject<Block> PRISMARINE_TILING_STAIRS = BLOCKS.register("prismarine_tiling_stairs", 
 			() -> new StairsBlock(() -> PRISMARINE_TILING.get().getDefaultState(), Block.Properties.from(PRISMARINE_TILING.get())));
 	
-	//Quartz Prismarine Bricks
-	//Quartz Dark Prismarine
+	//Quartz Prismarine Bricks (quartz_angular_bricks)
+	//Quartz Dark Prismarine (quartz_tiling)
 	
 	//Sandstone Prismarine Bricks
 	//Sandstone Dark Prismarine
