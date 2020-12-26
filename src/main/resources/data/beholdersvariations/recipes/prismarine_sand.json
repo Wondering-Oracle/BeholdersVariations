@@ -9,11 +9,11 @@
       "item": "beholdersvariations:nether_pearl"
     },
     "#": {
-      "item": "minecraft:stone"
+      "item": "minecraft:prismarine"
     }
   },
   "result": {
-    "item": "minecraft:sand",
+    "item": "beholdersvariations:prismarine_sand",
     "count": 2
   }
 }
