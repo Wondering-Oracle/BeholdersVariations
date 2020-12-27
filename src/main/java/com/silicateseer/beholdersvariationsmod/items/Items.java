@@ -134,6 +134,26 @@ public class Items
 	//Prismarine Sand
 	public static final RegistryObject<Item> PRISMARINE_SAND = ITEMS.register("prismarine_sand", 
 			() -> new BlockItem(Blocks.PRISMARINE_SAND.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	//Prism Quartz
+	public static final RegistryObject<Item> PRISM_QUARTZ = ITEMS.register("prism_quartz", 
+			() -> new BlockItem(Blocks.PRISM_QUARTZ.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> PRISM_QUARTZ_SLAB = ITEMS.register("prism_quartz_slab", 
+			() -> new BlockItem(Blocks.PRISM_QUARTZ_SLAB.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> PRISM_QUARTZ_STAIRS = ITEMS.register("prism_quartz_stairs", 
+			() -> new BlockItem(Blocks.PRISM_QUARTZ_STAIRS.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	
+	public static final RegistryObject<Item> SMOOTH_PRISM_QUARTZ = ITEMS.register("smooth_prism_quartz", 
+			() -> new BlockItem(Blocks.SMOOTH_PRISM_QUARTZ.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> SMOOTH_PRISM_QUARTZ_SLAB = ITEMS.register("smooth_prism_quartz_slab", 
+			() -> new BlockItem(Blocks.SMOOTH_PRISM_QUARTZ_SLAB.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> SMOOTH_PRISM_QUARTZ_STAIRS = ITEMS.register("smooth_prism_quartz_stairs", 
+			() -> new BlockItem(Blocks.SMOOTH_PRISM_QUARTZ_STAIRS.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	
+	public static final RegistryObject<Item> PRISM_QUARTZ_PILLAR = ITEMS.register("prism_quartz_pillar", 
+			() -> new BlockItem(Blocks.PRISM_QUARTZ_PILLAR.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	
+	public static final RegistryObject<Item> CHISELED_PRISM_QUARTZ = ITEMS.register("chiseled_prism_quartz", 
+			() -> new BlockItem(Blocks.CHISELED_PRISM_QUARTZ.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
 	//Prismarine Bricks Sandstone
 	public static final RegistryObject<Item> PRISMARINE_SANDSTONE = ITEMS.register("prismarine_sandstone", 
 			() -> new BlockItem(Blocks.PRISMARINE_SANDSTONE.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
