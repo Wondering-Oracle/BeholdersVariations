@@ -158,7 +158,7 @@ public class Blocks
 	public static final RegistryObject<Block> CHISELED_PRISM_QUARTZ = BLOCKS.register("chiseled_prism_quartz", 
 			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.SAND).hardnessAndResistance(0.8F).lightValue(11)));
 	
-	//Prismarine Bricks Sandstone (prismarine_sandstone)
+	/*//Prismarine Bricks Sandstone (prismarine_sandstone)
 	public static final RegistryObject<Block> PRISMARINE_SANDSTONE = BLOCKS.register("prismarine_sandstone", 
 			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIAMOND).hardnessAndResistance(0.8F)));
 	public static final RegistryObject<Block> PRISMARINE_SANDSTONE_SLAB = BLOCKS.register("prismarine_sandstone_slab", 
@@ -180,7 +180,7 @@ public class Blocks
 	//Prismarine Bricks Chiseled Sandstone Guardian
 	public static final RegistryObject<Block> CHISELED_PRISMARINE_SANDSTONE = BLOCKS.register("chiseled_prismarine_sandstone", 
 			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIAMOND).hardnessAndResistance(0.8F)));
-	
+	*/
 	//Prismarine Bricks Quartz (vitric_prismarine)
 	public static final RegistryObject<Block> VITRIC_PRISMARINE = BLOCKS.register("vitric_prismarine", 
 			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIAMOND).hardnessAndResistance(0.8F)));
@@ -203,7 +203,7 @@ public class Blocks
 			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIAMOND).hardnessAndResistance(0.8F)));
 	
 	
-	//Dark Prismarine Sandstone (dark_prismarine_sandstone)
+	/*//Dark Prismarine Sandstone (dark_prismarine_sandstone)
 	public static final RegistryObject<Block> DARK_PRISMARINE_SANDSTONE = BLOCKS.register("dark_prismarine_sandstone", 
 			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIAMOND).hardnessAndResistance(0.8F)));
 	public static final RegistryObject<Block> DARK_PRISMARINE_SANDSTONE_SLAB = BLOCKS.register("dark_prismarine_sandstone_slab", 
@@ -225,7 +225,7 @@ public class Blocks
 	//Dark Prismarine Chiseled Sandstone Shulker
 	public static final RegistryObject<Block> CHISELED_DARK_PRISMARINE_SANDSTONE = BLOCKS.register("chiseled_dark_prismarine_sandstone", 
 			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIAMOND).hardnessAndResistance(0.8F)));
-	
+	*/
 	//Dark Prismarine Quartz (vitric_dark_prismarine)
 	public static final RegistryObject<Block> VITRIC_DARK_PRISMARINE = BLOCKS.register("vitric_dark_prismarine", 
 			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIAMOND).hardnessAndResistance(0.8F)));
