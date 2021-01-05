@@ -1,8 +1,5 @@
 {
 	"item.beholdersvariations.nether_pearl": "Nether Pearl",
-	"block.minecraft.dark_prismarine": "Dark Prismarine Tiling",
-	"block.minecraft.dark_prismarine_slab": "Dark Prismarine Tiling Slab",
-	"block.minecraft.dark_prismarine_stairs": "Dark Prismarine Tiling Stairs",
 	"block.beholdersvariations.silica_sand": "Silica Sand",
 	"block.beholdersvariations.silicastone": "Silicastone",
 	"block.beholdersvariations.silicastone_slab": "Silicastone Slab",
@@ -47,6 +44,9 @@
 	"block.beholdersvariations.vitric_red_sandstone_pillar": "Vitric Red Sandstone Pillar",
 	"block.beholdersvariations.chiseled_vitric_red_sandstone": "Chiseled Vitric Red Sandstone",
 	
+	"block.minecraft.dark_prismarine": "Dark Prismarine Tiling",
+	"block.minecraft.dark_prismarine_slab": "Dark Prismarine Tiling Slab",
+	"block.minecraft.dark_prismarine_stairs": "Dark Prismarine Tiling Stairs",
 	"block.beholdersvariations.prismarine_sand": "Prismarine Sand",
 	"block.beholdersvariations.prism_quartz": "Prism Quartz",
 	"block.beholdersvariations.prism_quartz_slab": "Prism Quartz Slab",

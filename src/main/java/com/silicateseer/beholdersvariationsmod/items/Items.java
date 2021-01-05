@@ -154,7 +154,7 @@ public class Items
 	
 	public static final RegistryObject<Item> CHISELED_PRISM_QUARTZ = ITEMS.register("chiseled_prism_quartz", 
 			() -> new BlockItem(Blocks.CHISELED_PRISM_QUARTZ.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
-	/*//Prismarine Bricks Sandstone 
+	//Prismarine Bricks Sandstone 
 	public static final RegistryObject<Item> PRISMARINE_SANDSTONE = ITEMS.register("prismarine_sandstone", 
 			() -> new BlockItem(Blocks.PRISMARINE_SANDSTONE.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
 	public static final RegistryObject<Item> PRISMARINE_SANDSTONE_SLAB = ITEMS.register("prismarine_sandstone_slab", 
@@ -176,7 +176,7 @@ public class Items
 	
 	public static final RegistryObject<Item> CHISELED_PRISMARINE_SANDSTONE = ITEMS.register("chiseled_prismarine_sandstone", 
 			() -> new BlockItem(Blocks.CHISELED_PRISMARINE_SANDSTONE.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
-	*/
+	
 	//Prismarine Bricks Quartz
 	public static final RegistryObject<Item> VITRIC_PRISMARINE = ITEMS.register("vitric_prismarine", 
 			() -> new BlockItem(Blocks.VITRIC_PRISMARINE.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
@@ -197,7 +197,7 @@ public class Items
 	
 	public static final RegistryObject<Item> CHISELED_VITRIC_PRISMARINE = ITEMS.register("chiseled_vitric_prismarine", 
 			() -> new BlockItem(Blocks.CHISELED_VITRIC_PRISMARINE.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
-	/*//Dark Prismarine Sandstone
+	//Dark Prismarine Sandstone
 	public static final RegistryObject<Item> DARK_PRISMARINE_SANDSTONE = ITEMS.register("dark_prismarine_sandstone", 
 			() -> new BlockItem(Blocks.DARK_PRISMARINE_SANDSTONE.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
 	public static final RegistryObject<Item> DARK_PRISMARINE_SANDSTONE_SLAB = ITEMS.register("dark_prismarine_sandstone_slab", 
@@ -219,7 +219,7 @@ public class Items
 	
 	public static final RegistryObject<Item> CHISELED_DARK_PRISMARINE_SANDSTONE = ITEMS.register("chiseled_dark_prismarine_sandstone", 
 			() -> new BlockItem(Blocks.CHISELED_DARK_PRISMARINE_SANDSTONE.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
-	*/
+	
 	//Dark Prismarine Quartz
 	public static final RegistryObject<Item> VITRIC_DARK_PRISMARINE = ITEMS.register("vitric_dark_prismarine", 
 			() -> new BlockItem(Blocks.VITRIC_DARK_PRISMARINE.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
