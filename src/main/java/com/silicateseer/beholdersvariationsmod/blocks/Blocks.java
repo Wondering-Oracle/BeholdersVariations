@@ -45,9 +45,9 @@ public class Blocks
 	//Quartz Chiseled Sandstone Ghast
 	public static final RegistryObject<Block> CHISELED_SILICASTONE = BLOCKS.register("chiseled_silicastone", 
 			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.QUARTZ).hardnessAndResistance(0.8F)));
-	//Quartz Tiling
+	//Quartz Dark Prismarine
 	public static final RegistryObject<Block> QUARTZ_TILING = BLOCKS.register("quartz_tiling", 
-			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIAMOND).hardnessAndResistance(1.5F, 6.0F)));
+			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.QUARTZ).hardnessAndResistance(1.5F, 6.0F)));
 	public static final RegistryObject<Block> QUARTZ_TILING_SLAB = BLOCKS.register("quartz_tiling_slab", 
 			() -> new SlabBlock(Block.Properties.from(QUARTZ_TILING.get())));
 	public static final RegistryObject<Block> QUARTZ_TILING_STAIRS = BLOCKS.register("quartz_tiling_stairs", 
@@ -95,6 +95,13 @@ public class Blocks
 	//Soulsand Chiseled Quartz
 	public static final RegistryObject<Block> CHISELED_VITRIC_SOULSANDSTONE = BLOCKS.register("chiseled_vitric_soulsandstone", 
 			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.BROWN).hardnessAndResistance(0.8F)));
+	//Soulsand Dark Prismarine
+	public static final RegistryObject<Block> VITRIC_SOULSANDSTONE_TILING = BLOCKS.register("vitric_soulsandstone_tiling", 
+			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.BROWN).hardnessAndResistance(1.5F, 6.0F)));
+	public static final RegistryObject<Block> VITRIC_SOULSANDSTONE_TILING_SLAB = BLOCKS.register("vitric_soulsandstone_tiling_slab", 
+			() -> new SlabBlock(Block.Properties.from(VITRIC_SOULSANDSTONE_TILING.get())));
+	public static final RegistryObject<Block> VITRIC_SOULSANDSTONE_TILING_STAIRS = BLOCKS.register("vitric_soulsandstone_tiling_stairs", 
+			() -> new StairsBlock(() -> VITRIC_SOULSANDSTONE_TILING.get().getDefaultState(), Block.Properties.from(VITRIC_SOULSANDSTONE_TILING.get())));
 	
 	//Sandstone Quartz
 	public static final RegistryObject<Block> VITRIC_SANDSTONE = BLOCKS.register("vitric_sandstone", 
@@ -116,6 +123,13 @@ public class Blocks
 	//Sandstone Chiseled Quartz
 	public static final RegistryObject<Block> CHISELED_VITRIC_SANDSTONE = BLOCKS.register("chiseled_vitric_sandstone", 
 			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.SAND).hardnessAndResistance(0.8F)));
+	//Sandstone Dark Prismarine
+	public static final RegistryObject<Block> VITRIC_SANDSTONE_TILING = BLOCKS.register("vitric_sandstone_tiling", 
+			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.SAND).hardnessAndResistance(1.5F, 6.0F)));
+	public static final RegistryObject<Block> VITRIC_SANDSTONE_TILING_SLAB = BLOCKS.register("vitric_sandstone_tiling_slab", 
+			() -> new SlabBlock(Block.Properties.from(VITRIC_SANDSTONE_TILING.get())));
+	public static final RegistryObject<Block> VITRIC_SANDSTONE_TILING_STAIRS = BLOCKS.register("vitric_sandstone_tiling_stairs", 
+			() -> new StairsBlock(() -> VITRIC_SANDSTONE_TILING.get().getDefaultState(), Block.Properties.from(VITRIC_SANDSTONE_TILING.get())));
 	
 	//Red Sandstone Quartz
 	public static final RegistryObject<Block> VITRIC_RED_SANDSTONE = BLOCKS.register("vitric_red_sandstone", 
@@ -137,6 +151,13 @@ public class Blocks
 	//Red Sandstone Chiseled Quartz
 	public static final RegistryObject<Block> CHISELED_VITRIC_RED_SANDSTONE = BLOCKS.register("chiseled_vitric_red_sandstone", 
 			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.ADOBE).hardnessAndResistance(0.8F)));
+	//Red Sandstone Dark Prismarine
+	public static final RegistryObject<Block> VITRIC_RED_SANDSTONE_TILING = BLOCKS.register("vitric_red_sandstone_tiling", 
+			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.ADOBE).hardnessAndResistance(1.5F, 6.0F)));
+	public static final RegistryObject<Block> VITRIC_RED_SANDSTONE_TILING_SLAB = BLOCKS.register("vitric_red_sandstone_tiling_slab", 
+			() -> new SlabBlock(Block.Properties.from(VITRIC_RED_SANDSTONE_TILING.get())));
+	public static final RegistryObject<Block> VITRIC_RED_SANDSTONE_TILING_STAIRS = BLOCKS.register("vitric_red_sandstone_tiling_stairs", 
+			() -> new StairsBlock(() -> VITRIC_RED_SANDSTONE_TILING.get().getDefaultState(), Block.Properties.from(VITRIC_RED_SANDSTONE_TILING.get())));
 	
 	//0.2.0
 	//Prismarine Sand
