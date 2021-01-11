@@ -17,7 +17,7 @@ public class Items
 	public static final RegistryObject<Item> NETHER_PEARL = ITEMS.register("nether_pearl", 
 			() -> new Item(new Item.Properties().maxStackSize(64).group(ItemGroup.MISC)));
 	
-	
+	//0.1.0
 	//Quartz Sandstone
 	public static final RegistryObject<Item> SILICA_SAND = ITEMS.register("silica_sand", 
 			() -> new BlockItem(Blocks.SILICA_SAND.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
@@ -43,6 +43,14 @@ public class Items
 	
 	public static final RegistryObject<Item> CHISELED_SILICASTONE = ITEMS.register("chiseled_silicastone", 
 			() -> new BlockItem(Blocks.CHISELED_SILICASTONE.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	
+	//Quartz Dark Prismarine
+	public static final RegistryObject<Item> QUARTZ_TILING = ITEMS.register("quartz_tiling", 
+			() -> new BlockItem(Blocks.QUARTZ_TILING.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> QUARTZ_TILING_SLAB = ITEMS.register("quartz_tiling_slab", 
+			() -> new BlockItem(Blocks.QUARTZ_TILING_SLAB.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> QUARTZ_TILING_STAIRS = ITEMS.register("quartz_tiling_stairs", 
+			() -> new BlockItem(Blocks.QUARTZ_TILING_STAIRS.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
 	
 	//Soulsand Sandstone
 	public static final RegistryObject<Item> SOULSANDSTONE = ITEMS.register("soulsandstone", 
@@ -88,6 +96,14 @@ public class Items
 	public static final RegistryObject<Item> CHISELED_VITRIC_SOULSANDSTONE = ITEMS.register("chiseled_vitric_soulsandstone", 
 			() -> new BlockItem(Blocks.CHISELED_VITRIC_SOULSANDSTONE.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
 	
+	//Soulsand Dark Prismarine
+	public static final RegistryObject<Item> VITRIC_SOULSANDSTONE_TILING = ITEMS.register("vitric_soulsandstone_tiling", 
+			() -> new BlockItem(Blocks.VITRIC_SOULSANDSTONE_TILING.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> VITRIC_SOULSANDSTONE_TILING_SLAB = ITEMS.register("vitric_soulsandstone_tiling_slab", 
+			() -> new BlockItem(Blocks.VITRIC_SOULSANDSTONE_TILING_SLAB.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> VITRIC_SOULSANDSTONE_TILING_STAIRS = ITEMS.register("vitric_soulsandstone_tiling_stairs", 
+			() -> new BlockItem(Blocks.VITRIC_SOULSANDSTONE_TILING_STAIRS.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	
 	//Sandstone Quartz
 	public static final RegistryObject<Item> VITRIC_SANDSTONE = ITEMS.register("vitric_sandstone", 
 			() -> new BlockItem(Blocks.VITRIC_SANDSTONE.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
@@ -109,6 +125,14 @@ public class Items
 	public static final RegistryObject<Item> CHISELED_VITRIC_SANDSTONE = ITEMS.register("chiseled_vitric_sandstone", 
 			() -> new BlockItem(Blocks.CHISELED_VITRIC_SANDSTONE.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
 	
+	//Sandstone Dark Prismarine
+	public static final RegistryObject<Item> VITRIC_SANDSTONE_TILING = ITEMS.register("vitric_sandstone_tiling", 
+			() -> new BlockItem(Blocks.VITRIC_SANDSTONE_TILING.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> VITRIC_SANDSTONE_TILING_SLAB = ITEMS.register("vitric_sandstone_tiling_slab", 
+			() -> new BlockItem(Blocks.VITRIC_SANDSTONE_TILING_SLAB.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> VITRIC_SANDSTONE_TILING_STAIRS = ITEMS.register("vitric_sandstone_tiling_stairs", 
+			() -> new BlockItem(Blocks.VITRIC_SANDSTONE_TILING_STAIRS.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	
 	//Red Sandstone Quartz
 	public static final RegistryObject<Item> VITRIC_RED_SANDSTONE = ITEMS.register("vitric_red_sandstone", 
 			() -> new BlockItem(Blocks.VITRIC_RED_SANDSTONE.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
@@ -129,4 +153,149 @@ public class Items
 	
 	public static final RegistryObject<Item> CHISELED_VITRIC_RED_SANDSTONE = ITEMS.register("chiseled_vitric_red_sandstone", 
 			() -> new BlockItem(Blocks.CHISELED_VITRIC_RED_SANDSTONE.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	
+	//Red Sandstone Dark Prismarine
+	public static final RegistryObject<Item> VITRIC_RED_SANDSTONE_TILING = ITEMS.register("vitric_red_sandstone_tiling", 
+			() -> new BlockItem(Blocks.VITRIC_RED_SANDSTONE_TILING.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> VITRIC_RED_SANDSTONE_TILING_SLAB = ITEMS.register("vitric_red_sandstone_tiling_slab", 
+			() -> new BlockItem(Blocks.VITRIC_RED_SANDSTONE_TILING_SLAB.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> VITRIC_RED_SANDSTONE_TILING_STAIRS = ITEMS.register("vitric_red_sandstone_tiling_stairs", 
+			() -> new BlockItem(Blocks.VITRIC_RED_SANDSTONE_TILING_STAIRS.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	
+	//0.2.0
+	//Prismarine Sand
+	public static final RegistryObject<Item> PRISMARINE_SAND = ITEMS.register("prismarine_sand", 
+			() -> new BlockItem(Blocks.PRISMARINE_SAND.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	
+	//Prism Quartz
+	public static final RegistryObject<Item> PRISM_QUARTZ = ITEMS.register("prism_quartz", 
+			() -> new BlockItem(Blocks.PRISM_QUARTZ.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> PRISM_QUARTZ_SLAB = ITEMS.register("prism_quartz_slab", 
+			() -> new BlockItem(Blocks.PRISM_QUARTZ_SLAB.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> PRISM_QUARTZ_STAIRS = ITEMS.register("prism_quartz_stairs", 
+			() -> new BlockItem(Blocks.PRISM_QUARTZ_STAIRS.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	
+	public static final RegistryObject<Item> SMOOTH_PRISM_QUARTZ = ITEMS.register("smooth_prism_quartz", 
+			() -> new BlockItem(Blocks.SMOOTH_PRISM_QUARTZ.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> SMOOTH_PRISM_QUARTZ_SLAB = ITEMS.register("smooth_prism_quartz_slab", 
+			() -> new BlockItem(Blocks.SMOOTH_PRISM_QUARTZ_SLAB.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> SMOOTH_PRISM_QUARTZ_STAIRS = ITEMS.register("smooth_prism_quartz_stairs", 
+			() -> new BlockItem(Blocks.SMOOTH_PRISM_QUARTZ_STAIRS.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	
+	public static final RegistryObject<Item> PRISM_QUARTZ_PILLAR = ITEMS.register("prism_quartz_pillar", 
+			() -> new BlockItem(Blocks.PRISM_QUARTZ_PILLAR.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	
+	public static final RegistryObject<Item> CHISELED_PRISM_QUARTZ = ITEMS.register("chiseled_prism_quartz", 
+			() -> new BlockItem(Blocks.CHISELED_PRISM_QUARTZ.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	
+	public static final RegistryObject<Item> PRISM_QUARTZ_TILING = ITEMS.register("prism_quartz_tiling", 
+			() -> new BlockItem(Blocks.PRISM_QUARTZ_TILING.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> PRISM_QUARTZ_TILING_SLAB = ITEMS.register("prism_quartz_tiling_slab", 
+			() -> new BlockItem(Blocks.PRISM_QUARTZ_TILING_SLAB.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> PRISM_QUARTZ_TILING_STAIRS = ITEMS.register("prism_quartz_tiling_stairs", 
+			() -> new BlockItem(Blocks.PRISM_QUARTZ_TILING_STAIRS.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	
+	//Prismarine Bricks Sandstone 
+	public static final RegistryObject<Item> PRISMARINE_SANDSTONE = ITEMS.register("prismarine_sandstone", 
+			() -> new BlockItem(Blocks.PRISMARINE_SANDSTONE.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> PRISMARINE_SANDSTONE_SLAB = ITEMS.register("prismarine_sandstone_slab", 
+			() -> new BlockItem(Blocks.PRISMARINE_SANDSTONE_SLAB.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> PRISMARINE_SANDSTONE_STAIRS = ITEMS.register("prismarine_sandstone_stairs", 
+			() -> new BlockItem(Blocks.PRISMARINE_SANDSTONE_STAIRS.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	
+	public static final RegistryObject<Item> SMOOTH_PRISMARINE_SANDSTONE = ITEMS.register("smooth_prismarine_sandstone", 
+			() -> new BlockItem(Blocks.SMOOTH_PRISMARINE_SANDSTONE.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> SMOOTH_PRISMARINE_SANDSTONE_SLAB = ITEMS.register("smooth_prismarine_sandstone_slab", 
+			() -> new BlockItem(Blocks.SMOOTH_PRISMARINE_SANDSTONE_SLAB.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> SMOOTH_PRISMARINE_SANDSTONE_STAIRS = ITEMS.register("smooth_prismarine_sandstone_stairs", 
+			() -> new BlockItem(Blocks.SMOOTH_PRISMARINE_SANDSTONE_STAIRS.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	
+	public static final RegistryObject<Item> CUT_PRISMARINE_SANDSTONE = ITEMS.register("cut_prismarine_sandstone", 
+			() -> new BlockItem(Blocks.CUT_PRISMARINE_SANDSTONE.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> CUT_PRISMARINE_SANDSTONE_SLAB = ITEMS.register("cut_prismarine_sandstone_slab", 
+			() -> new BlockItem(Blocks.CUT_PRISMARINE_SANDSTONE_SLAB.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	
+	public static final RegistryObject<Item> CHISELED_PRISMARINE_SANDSTONE = ITEMS.register("chiseled_prismarine_sandstone", 
+			() -> new BlockItem(Blocks.CHISELED_PRISMARINE_SANDSTONE.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	
+	//Prismarine Bricks Quartz
+	public static final RegistryObject<Item> VITRIC_PRISMARINE = ITEMS.register("vitric_prismarine", 
+			() -> new BlockItem(Blocks.VITRIC_PRISMARINE.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> VITRIC_PRISMARINE_SLAB = ITEMS.register("vitric_prismarine_slab", 
+			() -> new BlockItem(Blocks.VITRIC_PRISMARINE_SLAB.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> VITRIC_PRISMARINE_STAIRS = ITEMS.register("vitric_prismarine_stairs", 
+			() -> new BlockItem(Blocks.VITRIC_PRISMARINE_STAIRS.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	
+	public static final RegistryObject<Item> SMOOTH_VITRIC_PRISMARINE = ITEMS.register("smooth_vitric_prismarine", 
+			() -> new BlockItem(Blocks.SMOOTH_VITRIC_PRISMARINE.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> SMOOTH_VITRIC_PRISMARINE_SLAB = ITEMS.register("smooth_vitric_prismarine_slab", 
+			() -> new BlockItem(Blocks.SMOOTH_VITRIC_PRISMARINE_SLAB.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> SMOOTH_VITRIC_PRISMARINE_STAIRS = ITEMS.register("smooth_vitric_prismarine_stairs", 
+			() -> new BlockItem(Blocks.SMOOTH_VITRIC_PRISMARINE_STAIRS.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	
+	public static final RegistryObject<Item> VITRIC_PRISMARINE_PILLAR = ITEMS.register("vitric_prismarine_pillar", 
+			() -> new BlockItem(Blocks.VITRIC_PRISMARINE_PILLAR.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	
+	public static final RegistryObject<Item> CHISELED_VITRIC_PRISMARINE = ITEMS.register("chiseled_vitric_prismarine", 
+			() -> new BlockItem(Blocks.CHISELED_VITRIC_PRISMARINE.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	
+	//Dark Prismarine Sandstone
+	public static final RegistryObject<Item> DARK_PRISMARINE_SANDSTONE = ITEMS.register("dark_prismarine_sandstone", 
+			() -> new BlockItem(Blocks.DARK_PRISMARINE_SANDSTONE.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> DARK_PRISMARINE_SANDSTONE_SLAB = ITEMS.register("dark_prismarine_sandstone_slab", 
+			() -> new BlockItem(Blocks.DARK_PRISMARINE_SANDSTONE_SLAB.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> DARK_PRISMARINE_SANDSTONE_STAIRS = ITEMS.register("dark_prismarine_sandstone_stairs", 
+			() -> new BlockItem(Blocks.DARK_PRISMARINE_SANDSTONE_STAIRS.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	
+	public static final RegistryObject<Item> SMOOTH_DARK_PRISMARINE_SANDSTONE = ITEMS.register("smooth_dark_prismarine_sandstone", 
+			() -> new BlockItem(Blocks.SMOOTH_DARK_PRISMARINE_SANDSTONE.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> SMOOTH_DARK_PRISMARINE_SANDSTONE_SLAB = ITEMS.register("smooth_dark_prismarine_sandstone_slab", 
+			() -> new BlockItem(Blocks.SMOOTH_DARK_PRISMARINE_SANDSTONE_SLAB.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> SMOOTH_DARK_PRISMARINE_SANDSTONE_STAIRS = ITEMS.register("smooth_dark_prismarine_sandstone_stairs", 
+			() -> new BlockItem(Blocks.SMOOTH_DARK_PRISMARINE_SANDSTONE_STAIRS.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	
+	public static final RegistryObject<Item> CUT_DARK_PRISMARINE_SANDSTONE = ITEMS.register("cut_dark_prismarine_sandstone", 
+			() -> new BlockItem(Blocks.CUT_DARK_PRISMARINE_SANDSTONE.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> CUT_DARK_PRISMARINE_SANDSTONE_SLAB = ITEMS.register("cut_dark_prismarine_sandstone_slab", 
+			() -> new BlockItem(Blocks.CUT_DARK_PRISMARINE_SANDSTONE_SLAB.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	
+	public static final RegistryObject<Item> CHISELED_DARK_PRISMARINE_SANDSTONE = ITEMS.register("chiseled_dark_prismarine_sandstone", 
+			() -> new BlockItem(Blocks.CHISELED_DARK_PRISMARINE_SANDSTONE.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	
+	//Dark Prismarine Quartz
+	public static final RegistryObject<Item> VITRIC_DARK_PRISMARINE = ITEMS.register("vitric_dark_prismarine", 
+			() -> new BlockItem(Blocks.VITRIC_DARK_PRISMARINE.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> VITRIC_DARK_PRISMARINE_SLAB = ITEMS.register("vitric_dark_prismarine_slab", 
+			() -> new BlockItem(Blocks.VITRIC_DARK_PRISMARINE_SLAB.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> VITRIC_DARK_PRISMARINE_STAIRS = ITEMS.register("vitric_dark_prismarine_stairs", 
+			() -> new BlockItem(Blocks.VITRIC_DARK_PRISMARINE_STAIRS.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	
+	public static final RegistryObject<Item> SMOOTH_VITRIC_DARK_PRISMARINE = ITEMS.register("smooth_vitric_dark_prismarine", 
+			() -> new BlockItem(Blocks.SMOOTH_VITRIC_DARK_PRISMARINE.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> SMOOTH_VITRIC_DARK_PRISMARINE_SLAB = ITEMS.register("smooth_vitric_dark_prismarine_slab", 
+			() -> new BlockItem(Blocks.SMOOTH_VITRIC_DARK_PRISMARINE_SLAB.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> SMOOTH_VITRIC_DARK_PRISMARINE_STAIRS = ITEMS.register("smooth_vitric_dark_prismarine_stairs", 
+			() -> new BlockItem(Blocks.SMOOTH_VITRIC_DARK_PRISMARINE_STAIRS.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	
+	public static final RegistryObject<Item> VITRIC_DARK_PRISMARINE_PILLAR = ITEMS.register("vitric_dark_prismarine_pillar", 
+			() -> new BlockItem(Blocks.VITRIC_DARK_PRISMARINE_PILLAR.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	
+	public static final RegistryObject<Item> CHISELED_VITRIC_DARK_PRISMARINE = ITEMS.register("chiseled_vitric_dark_prismarine", 
+			() -> new BlockItem(Blocks.CHISELED_VITRIC_DARK_PRISMARINE.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	
+	//Prismarine Bricks Dark Prismarine
+	public static final RegistryObject<Item> PRISMARINE_TILING = ITEMS.register("prismarine_tiling", 
+			() -> new BlockItem(Blocks.PRISMARINE_TILING.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> PRISMARINE_TILING_SLAB = ITEMS.register("prismarine_tiling_slab", 
+			() -> new BlockItem(Blocks.PRISMARINE_TILING_SLAB.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> PRISMARINE_TILING_STAIRS = ITEMS.register("prismarine_tiling_stairs", 
+			() -> new BlockItem(Blocks.PRISMARINE_TILING_STAIRS.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	
+	//Dark Prismarine Prismarine Bricks
+	public static final RegistryObject<Item> DARK_PRISMARINE_BRICKS = ITEMS.register("dark_prismarine_bricks", 
+			() -> new BlockItem(Blocks.DARK_PRISMARINE_BRICKS.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> DARK_PRISMARINE_BRICK_SLAB = ITEMS.register("dark_prismarine_brick_slab", 
+			() -> new BlockItem(Blocks.DARK_PRISMARINE_BRICK_SLAB.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<Item> DARK_PRISMARINE_BRICK_STAIRS = ITEMS.register("dark_prismarine_brick_stairs", 
+			() -> new BlockItem(Blocks.DARK_PRISMARINE_BRICK_STAIRS.get(), new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)));
 }
