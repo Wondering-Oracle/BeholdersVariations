@@ -167,24 +167,31 @@ public class Blocks
 	
 	//Prismarine Quartz
 	public static final RegistryObject<Block> PRISM_QUARTZ = BLOCKS.register("prism_quartz", 
-			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.SAND).hardnessAndResistance(0.8F).lightValue(11)));
+			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.CYAN).hardnessAndResistance(0.8F).lightValue(11)));
 	public static final RegistryObject<Block> PRISM_QUARTZ_SLAB = BLOCKS.register("prism_quartz_slab", 
 			() -> new SlabBlock(Block.Properties.from(PRISM_QUARTZ.get())));
 	public static final RegistryObject<Block> PRISM_QUARTZ_STAIRS = BLOCKS.register("prism_quartz_stairs", 
 			() -> new StairsBlock(() -> PRISM_QUARTZ.get().getDefaultState(), Block.Properties.from(PRISM_QUARTZ.get())));
 	//Prismarine Smooth Quartz
 	public static final RegistryObject<Block> SMOOTH_PRISM_QUARTZ = BLOCKS.register("smooth_prism_quartz", 
-			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.SAND).hardnessAndResistance(2.0F, 6.0F).lightValue(11)));
+			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.CYAN).hardnessAndResistance(2.0F, 6.0F).lightValue(11)));
 	public static final RegistryObject<Block> SMOOTH_PRISM_QUARTZ_SLAB = BLOCKS.register("smooth_prism_quartz_slab", 
 			() -> new SlabBlock(Block.Properties.from(SMOOTH_PRISM_QUARTZ.get())));
 	public static final RegistryObject<Block> SMOOTH_PRISM_QUARTZ_STAIRS = BLOCKS.register("smooth_prism_quartz_stairs", 
 			() -> new StairsBlock(() -> SMOOTH_PRISM_QUARTZ.get().getDefaultState(), Block.Properties.from(SMOOTH_PRISM_QUARTZ.get())));
 	//Prismarine Quartz Pillar
 	public static final RegistryObject<Block> PRISM_QUARTZ_PILLAR = BLOCKS.register("prism_quartz_pillar",
-			() -> new RotatedPillarBlock(Block.Properties.create(Material.ROCK, MaterialColor.SAND).hardnessAndResistance(0.8F).lightValue(11)));
+			() -> new RotatedPillarBlock(Block.Properties.create(Material.ROCK, MaterialColor.CYAN).hardnessAndResistance(0.8F).lightValue(11)));
 	//Prismarine Chiseled Quartz
 	public static final RegistryObject<Block> CHISELED_PRISM_QUARTZ = BLOCKS.register("chiseled_prism_quartz", 
-			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.SAND).hardnessAndResistance(0.8F).lightValue(11)));
+			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.CYAN).hardnessAndResistance(0.8F).lightValue(11)));
+	//Prismarine Dark Prismarine
+	public static final RegistryObject<Block> PRISM_QUARTZ_TILING = BLOCKS.register("prism_quartz_tiling", 
+			() -> new Block(Block.Properties.create(Material.ROCK, MaterialColor.CYAN).hardnessAndResistance(1.5F, 6.0F).lightValue(11)));
+	public static final RegistryObject<Block> PRISM_QUARTZ_TILING_SLAB = BLOCKS.register("prism_quartz_tiling_slab", 
+			() -> new SlabBlock(Block.Properties.from(PRISM_QUARTZ_TILING.get())));
+	public static final RegistryObject<Block> PRISM_QUARTZ_TILING_STAIRS = BLOCKS.register("prism_quartz_tiling_stairs", 
+			() -> new StairsBlock(() -> PRISM_QUARTZ_TILING.get().getDefaultState(), Block.Properties.from(PRISM_QUARTZ_TILING.get())));
 	
 	//Prismarine Bricks Sandstone (prismarine_sandstone)
 	public static final RegistryObject<Block> PRISMARINE_SANDSTONE = BLOCKS.register("prismarine_sandstone", 
